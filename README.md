@@ -1,14 +1,4 @@
 # Salesforce Developer Code Challenge
-## Instructions
-Develop the solution using a developer edition org. 
-- Please create a user with the email address of salesforceops@techstars.com and the username of salesforceops+dev+YourName@techstars.com
-- salesforceopsdevJordanMichele@techstars.com
-- When finished, load your source code into a Github repo and send an email to salesforceops@techstars.com with a link to the repo.
-- You can expect to spend several hours working on this challenge. The intent is not to develop a production-ready solution, but rather to complete the tasks with a reasonable level of detail.
-- You will be graded on your ability to complete the tasks. There are no gotchas, at least not intentionally. 
-- The intent of the challenge is to demonstrate your ability to produce code, and so we ask that you use LWC and Apex when specified.
-- Feel free to add anything additional as long as the core functionality is completed.
-- If you have any questions, or want to discuss the solution further, feel free to email salesforceops@techstars.com. No topic is off limits.
 
 ## Task 1 - Meetup App
 Create an app to manage Meetups. .)DONE 
