@@ -1,11 +1,11 @@
 # Salesforce Developer Code Challenge
 
 ## Task 1 - Meetup App
-Create an app to manage Meetups. .)DONE 
+Create an app to manage Meetups. 
 This app will be used by Salesforce users to create and manage Meetups.
 
-- Use OOTB Salesforce features to build the UI (Apps, Tabs, Page layouts) .)DONE
-- Use the model below instead of standard Salesforce objects like Lead and Campaign .)DONE
+- Use OOTB Salesforce features to build the UI (Apps, Tabs, Page layouts) 
+- Use the model below instead of standard Salesforce objects like Lead and Campaign 
 
 ### Meetup Data Model
 #### Meetup__c
@@ -29,15 +29,15 @@ This app will be used by Salesforce users to create and manage Meetups.
 
 
 ## Task 2 - Registration Page
-Create a page using LWCs that allows a user to register for the Meetup. .)DONE
+Create a page using LWCs that allows a user to register for the Meetup. 
 Create a standard lightning page and add it to your Meetups app. Use LWCs for all UI and Apex for all data operations.
 
 ### Requirements:
 - The page should look for the Registration Code in the query string. I.e. RegistrationPage?code=12345
-- The user can only register if the Meetup status is Open. .)DONE
-- The user cannot register when the total # of registrations exceed the registration limit for this Meetup. .)DONE
-- Provide inputs for first name, last name and email. These fields are required. .)DONE
-- Each email must be unique per Meetup. .)DONE
+- The user can only register if the Meetup status is Open. 
+- The user cannot register when the total # of registrations exceed the registration limit for this Meetup. 
+- Provide inputs for first name, last name and email. These fields are required. 
+- Each email must be unique per Meetup. 
 
 When creating the registration page, keep the following in mind:
 - How can we make the registration process friendly for the user?
