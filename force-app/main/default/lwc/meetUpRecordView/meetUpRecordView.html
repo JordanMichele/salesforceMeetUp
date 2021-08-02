@@ -1,0 +1,10 @@
+<template>
+  <lightning-card  title='Register For Meetup'>
+    <lightning-record-form
+        for="unique-id-of-input"
+        object-api-name={MeetupRegistrationObject}
+        fields={myFields}
+        onsuccess={handleAccountCreated}>
+    </lightning-record-form>
+  </lightning-card>
+</template>

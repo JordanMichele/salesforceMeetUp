@@ -1,0 +1,14 @@
+<apex:page controller="weddingController" lightningStylesheets="true">
+    <apex:form >
+        <apex:pageBlock mode="edit">
+            <apex:pageBlockSection title="Enter a new guest for the wedding" columns="2">
+                <apex:inputField value="{!guestTracking.Name}"/>
+                <apex:inputField value="{!guestTracking.Amount_gifted__c}"/>
+                <apex:inputField value="{!guestTracking.Meal_Choice__c}"/>
+                <apex:inputField value="{!guestTracking.Responded__c}"/>
+                <apex:inputField value="{!guestTracking.Response__c}"/>
+            </apex:pageBlockSection>
+               <apex:commandButton action="{!save}" value="Enter new guest"/>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

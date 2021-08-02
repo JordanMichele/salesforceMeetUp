@@ -1,0 +1,17 @@
+<template>
+    <template if:true={meetUps.data}>
+        <div class="slds-grid slds-wrap">
+            <template for:each={meetUps.data} for:item="meetUp">
+                <div key={meetUp.Name} class="slds-size_1-of-3 slds-m-around_xx-small">
+                    <lightning-card  title={meetUp.Name}>
+                            <p class="slds-p-horizontal_small">Registration Limit: {meetUp.RegistrationLimit__c}</p>
+                            <p class="slds-p-horizontal_small">Total Registered: {meetUp.TotalRegistered__c}</p>
+                            <p class="slds-p-horizontal_small">Registration Code: {meetUp.RegistrationCode__c}</p>
+                            <p class="slds-p-horizontal_small">Status: {meetUp.Status__c}</p>
+                            <lightning-button label="Register for MeetUp" name={meetUp.Id} onclick={navigateToRecordPage} class="slds-m-left_x-small"></lightning-button>
+                    </lightning-card>
+                </div>
+            </template>
+        </div>
+    </template>
+</template>
